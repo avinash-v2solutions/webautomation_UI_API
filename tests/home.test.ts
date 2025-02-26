@@ -17,7 +17,7 @@ test.describe('Home', () => {
         await expect(page).toHaveTitle("About – Practice E-Commerce Site")
 
         //print the title on console
-        console.log("Title is : " + await page.title())
+        console.log("Title of the Page is : " + await page.title())
     })
      
     test("Use of CSS Selector and Verify URL", async({page})=>{
@@ -31,7 +31,7 @@ test.describe('Home', () => {
         toHaveURL("https://practice.sdetunicorns.com/#get-started")
 
         //print the URL
-        console.log("The URL is : "+await page.url())
+        console.log("The URL of the Page is : "+await page.url())
     
     })
 
