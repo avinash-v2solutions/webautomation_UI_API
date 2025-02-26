@@ -30,6 +30,8 @@ test.describe('Home', () => {
         await expect(page).
         toHaveURL("https://practice.sdetunicorns.com/#get-started")
 
+        // Verified Code
+
         //print the URL
         console.log("The URL of the Page is : "+await page.url())
     
